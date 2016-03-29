@@ -1,0 +1,72 @@
+{
+  "leagues": [
+    {
+      "id": 4032651689,
+      "name": "Liga MX",
+      "schedule": [
+        {
+          "id": 6512858282,
+          "homeTeamName": "UDEG",
+          "homeTeamLogo": "assets/logos/udeg.png",
+          "awayTeamName": "Veracruz",
+          "awayTeamLogo": "assets/logos/veracruz.png",
+          "date": "",
+          "status": "live",
+          "minute": 35,
+          "place": "Some stadium",
+          "result": null
+        },
+        {
+          "id": 5190217860,
+          "homeTeamName": "Atlas",
+          "homeTeamLogo": "assets/logos/atlas.png",
+          "awayTeamName": "Morelia",
+          "awayTeamLogo": "assets/logos/morelia.png",
+          "date": "",
+          "status": "previous",
+          "place": "Some stadium",
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": 8179229629,
+          "homeTeamName": "Puebla",
+          "homeTeamLogo": "assets/logos/puebla.png",
+          "awayTeamName": "Santos",
+          "awayTeamLogo": "assets/logos/santos.png",
+          "date": "",
+          "status": "previous",
+          "place": "Some stadium",
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": 6341183280,
+          "homeTeamName": "America",
+          "homeTeamLogo": "assets/logos/america.png",
+          "awayTeamName": "Gdl",
+          "awayTeamLogo": "assets/logos/gdl.png",
+          "date": "",
+          "status": "previous",
+          "place": "Some stadium",
+          "minute": null,
+          "result": null
+        },
+        {
+          "id": 1196615730,
+          "homeTeamName": "Cruz Azul",
+          "homeTeamLogo": "assets/logos/crzazul.png",
+          "awayTeamName": "Pumas",
+          "awayTeamLogo": "assets/logos/pumas.png",
+          "date": "",
+          "status": "finished",
+          "place": "Some stadium",
+          "result": {
+            "goalsHomeTeam": 2,
+            "goalsAwayTeam": 2
+          }
+        }
+      ]
+    }
+  ]
+}

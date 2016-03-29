@@ -1,0 +1,21 @@
+{
+  "name": "referee",
+  "authors": [
+    "Noe Sanchez <noeszc@gmail.com>"
+  ],
+  "description": "schedule",
+  "main": "",
+  "scripts" : {
+      
+  },
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
