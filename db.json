@@ -1,69 +1,831 @@
 {
   "leagues": [
     {
-      "id": 4032651689,
-      "name": "Liga MX",
-      "schedule": [
+      "competition": "Liga MX - Clausura 2016",
+      "id": 385,
+      "year": "2015",
+      "matches": [
         {
-          "id": 6512858282,
-          "homeTeamName": "UDEG",
-          "homeTeamLogo": "assets/logos/udeg.png",
-          "awayTeamName": "Veracruz",
-          "awayTeamLogo": "assets/logos/veracruz.png",
-          "date": "",
-          "status": "live",
-          "minute": 35,
-          "place": "Some stadium",
-          "result": null
+          "estadio": "Estadio Caliente",
+          "periodo": "Previo",
+          "fecha": "2016-04-01 21:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Club Tijuana"
+            },
+            "visitante": {
+              "nombre": "Querétaro",
+              "goles": null
+            }
+          }
         },
         {
-          "id": 5190217860,
-          "homeTeamName": "Atlas",
-          "homeTeamLogo": "assets/logos/atlas.png",
-          "awayTeamName": "Morelia",
-          "awayTeamLogo": "assets/logos/morelia.png",
-          "date": "",
-          "status": "previous",
-          "place": "Some stadium",
-          "minute": null,
-          "result": null
+          "estadio": "Estadio Nemesio Díez Riega",
+          "periodo": "Previo",
+          "fecha": "2016-04-01 20:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Toluca"
+            },
+            "visitante": {
+              "nombre": "Santos Laguna",
+              "goles": null
+            }
+          }
         },
         {
-          "id": 8179229629,
-          "homeTeamName": "Puebla",
-          "homeTeamLogo": "assets/logos/puebla.png",
-          "awayTeamName": "Santos",
-          "awayTeamLogo": "assets/logos/santos.png",
-          "date": "",
-          "status": "previous",
-          "place": "Some stadium",
-          "minute": null,
-          "result": null
+          "estadio": "Estadio Luis 'Pirata' Fuente",
+          "periodo": "Previo",
+          "fecha": "2016-04-01 21:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Veracruz"
+            },
+            "visitante": {
+              "nombre": "Dorados",
+              "goles": null
+            }
+          }
         },
         {
-          "id": 6341183280,
-          "homeTeamName": "America",
-          "homeTeamLogo": "assets/logos/america.png",
-          "awayTeamName": "Gdl",
-          "awayTeamLogo": "assets/logos/gdl.png",
-          "date": "",
-          "status": "previous",
-          "place": "Some stadium",
-          "minute": null,
-          "result": null
+          "estadio": "Estadio Víctor Manuel Reyna",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 21:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Chiapas F.C."
+            },
+            "visitante": {
+              "nombre": "América",
+              "goles": null
+            }
+          }
         },
         {
-          "id": 1196615730,
-          "homeTeamName": "Cruz Azul",
-          "homeTeamLogo": "assets/logos/crzazul.png",
-          "awayTeamName": "Pumas",
-          "awayTeamLogo": "assets/logos/pumas.png",
-          "date": "",
-          "status": "finished",
-          "place": "Some stadium",
-          "result": {
-            "goalsHomeTeam": 2,
-            "goalsAwayTeam": 2
+          "estadio": "Estadio Azul",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 17:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Cruz Azul"
+            },
+            "visitante": {
+              "nombre": "Pachuca",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio León",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 20:06:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "León"
+            },
+            "visitante": {
+              "nombre": "Monterrey",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Morelos",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 20:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Monarcas Morelia"
+            },
+            "visitante": {
+              "nombre": "Puebla",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Universitario",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 19:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Tigres"
+            },
+            "visitante": {
+              "nombre": "Atlas",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Omnilife",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 20:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Guadalajara"
+            },
+            "visitante": {
+              "nombre": "Pumas UNAM",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Azteca",
+          "periodo": "Final",
+          "fecha": "2016-01-09 17:00:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "América"
+            },
+            "visitante": {
+              "nombre": "Puebla",
+              "goles": "0"
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Caliente",
+          "periodo": "Final",
+          "fecha": "2016-01-08 21:30:00",
+          "equipos": {
+            "local": {
+              "goles": "1",
+              "nombre": "Club Tijuana"
+            },
+            "visitante": {
+              "nombre": "Pachuca",
+              "goles": "1"
+            }
+          }
+        },
+        {
+          "estadio": "La Corregidora",
+          "periodo": "Final",
+          "fecha": "2016-01-08 19:30:00",
+          "equipos": {
+            "local": {
+              "goles": "1",
+              "nombre": "Querétaro"
+            },
+            "visitante": {
+              "nombre": "Atlas",
+              "goles": "3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competition": "Champions League",
+      "id": 5,
+      "year": "2015",
+      "matches": [
+        {
+          "estadio": "Estádio da Luz",
+          "periodo": "Final",
+          "fecha": "2015-09-15 13:45:00",
+          "equipos": {
+            "local": {
+              "goles": "2",
+              "nombre": "Benfica"
+            },
+            "visitante": {
+              "nombre": "FC Astana",
+              "goles": "0"
+            }
+          }
+        },
+        {
+          "estadio": "Türk Telekom Arena",
+          "periodo": "Final",
+          "fecha": "2015-09-15 13:45:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "Galatasaray"
+            },
+            "visitante": {
+              "nombre": "Atlético de Madrid",
+              "goles": "2"
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Etihad",
+          "periodo": "Final",
+          "fecha": "2015-09-15 13:45:00",
+          "equipos": {
+            "local": {
+              "goles": "1",
+              "nombre": "Manchester City"
+            },
+            "visitante": {
+              "nombre": "Juventus",
+              "goles": "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competition": "Premier League",
+      "id": 8,
+      "year": "2015",
+      "matches": [
+        {
+          "estadio": "Estadio Emirates",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Arsenal"
+            },
+            "visitante": {
+              "nombre": "Watford",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Villa Park",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 05:45:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Aston Villa"
+            },
+            "visitante": {
+              "nombre": "Chelsea",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Vitality",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Bournemouth"
+            },
+            "visitante": {
+              "nombre": "Manchester City",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Anfield",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 10:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Liverpool"
+            },
+            "visitante": {
+              "nombre": "Tottenham Hotspur",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Carrow Road",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Norwich City"
+            },
+            "visitante": {
+              "nombre": "Newcastle United",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Britannia",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Stoke City"
+            },
+            "visitante": {
+              "nombre": "Swansea City",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Stadium ",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Sunderland"
+            },
+            "visitante": {
+              "nombre": "West Bromwich Albion",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Boleyn Ground",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "West Ham United"
+            },
+            "visitante": {
+              "nombre": "Crystal Palace",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio King Power",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Leicester City"
+            },
+            "visitante": {
+              "nombre": "Southampton",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Old Trafford",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 10:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Manchester United"
+            },
+            "visitante": {
+              "nombre": "Everton",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Estadio Vitality",
+          "periodo": "Final",
+          "fecha": "2015-08-08 09:00:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "Bournemouth"
+            },
+            "visitante": {
+              "nombre": "Aston Villa",
+              "goles": "1"
+            }
+          }
+        },
+        {
+          "estadio": "Stamford Bridge",
+          "periodo": "Final",
+          "fecha": "2015-08-08 11:30:00",
+          "equipos": {
+            "local": {
+              "goles": "2",
+              "nombre": "Chelsea"
+            },
+            "visitante": {
+              "nombre": "Swansea City",
+              "goles": "2"
+            }
+          }
+        },
+        {
+          "estadio": "Goodison Park",
+          "periodo": "Final",
+          "fecha": "2015-08-08 09:00:00",
+          "equipos": {
+            "local": {
+              "goles": "2",
+              "nombre": "Everton"
+            },
+            "visitante": {
+              "nombre": "Watford",
+              "goles": "2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competition": "Liga Española",
+      "id": 23,
+      "year": "2015",
+      "matches": [
+        {
+          "estadio": "Campo de Fútbol de Vallecas",
+          "periodo": "Previo",
+          "fecha": "2016-04-01 12:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Rayo Vallecano"
+            },
+            "visitante": {
+              "nombre": "Getafe",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Vicente Calderón",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 08:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Atlético de Madrid"
+            },
+            "visitante": {
+              "nombre": "Real Betis",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Camp Nou",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 12:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Barcelona"
+            },
+            "visitante": {
+              "nombre": "Real Madrid",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Balaídos",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 14:05:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Celta de Vigo"
+            },
+            "visitante": {
+              "nombre": "Deportivo de La Coruña",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Gran Canaria",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 10:15:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Las Palmas"
+            },
+            "visitante": {
+              "nombre": "Valencia CF",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "San Mamés",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 05:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Athletic Club"
+            },
+            "visitante": {
+              "nombre": "Granada CF",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Ipurúa",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 11:15:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Eibar"
+            },
+            "visitante": {
+              "nombre": "Villarreal",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "La Rosaleda",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 09:00:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Málaga"
+            },
+            "visitante": {
+              "nombre": "Espanyol",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Ramón-Sánchez Pizjuán",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 13:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Sevilla"
+            },
+            "visitante": {
+              "nombre": "Real Sociedad",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Ciutat de Valencia",
+          "periodo": "Previo",
+          "fecha": "2016-04-04 13:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Levante"
+            },
+            "visitante": {
+              "nombre": "Sporting de Gijón",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "La Rosaleda",
+          "periodo": "Final",
+          "fecha": "2015-08-21 13:30:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "Málaga"
+            },
+            "visitante": {
+              "nombre": "Sevilla",
+              "goles": "0"
+            }
+          }
+        },
+        {
+          "estadio": "Vicente Calderón",
+          "periodo": "Final",
+          "fecha": "2015-08-22 13:30:00",
+          "equipos": {
+            "local": {
+              "goles": "1",
+              "nombre": "Atlético de Madrid"
+            },
+            "visitante": {
+              "nombre": "Las Palmas",
+              "goles": "0"
+            }
+          }
+        },
+        {
+          "estadio": "Riazor",
+          "periodo": "Final",
+          "fecha": "2015-08-22 11:30:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "Deportivo de La Coruña"
+            },
+            "visitante": {
+              "nombre": "Real Sociedad",
+              "goles": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "competition": "Bundesliga",
+      "id": 22,
+      "year": "2015",
+      "matches": [
+        {
+          "estadio": "BayArena",
+          "periodo": "Previo",
+          "fecha": "2016-04-01 12:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Bayer 04 Leverkusen"
+            },
+            "visitante": {
+              "nombre": "VfL Wolfsburg",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Coface Arena",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "1. FSV Mainz 05"
+            },
+            "visitante": {
+              "nombre": "FC Augsburg",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Signal Iduna Park",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 10:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Borussia Dortmund"
+            },
+            "visitante": {
+              "nombre": "SV Werder Bremen",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Allianz Arena",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "FC Bayern München"
+            },
+            "visitante": {
+              "nombre": "Eintracht Frankfurt",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Audi Sportpark",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "FC Ingolstadt 04"
+            },
+            "visitante": {
+              "nombre": "FC Schalke 04",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "HDI-Arena",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Hannover 96"
+            },
+            "visitante": {
+              "nombre": "Hamburger SV",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Merck-Stadion am Böllenfalltor",
+          "periodo": "Previo",
+          "fecha": "2016-04-02 07:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "SV Darmstadt 98"
+            },
+            "visitante": {
+              "nombre": "VfB Stuttgart",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Borussia-Park",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 08:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "Borussia Mönchengladbach"
+            },
+            "visitante": {
+              "nombre": "Hertha BSC",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "WIRSOL Rhein-Neckar-Arena",
+          "periodo": "Previo",
+          "fecha": "2016-04-03 10:30:00",
+          "equipos": {
+            "local": {
+              "goles": null,
+              "nombre": "TSG 1899 Hoffenheim"
+            },
+            "visitante": {
+              "nombre": "1. FC Köln",
+              "goles": null
+            }
+          }
+        },
+        {
+          "estadio": "Allianz Arena",
+          "periodo": "Final",
+          "fecha": "2015-08-14 13:30:00",
+          "equipos": {
+            "local": {
+              "goles": "5",
+              "nombre": "FC Bayern München"
+            },
+            "visitante": {
+              "nombre": "Hamburger SV",
+              "goles": "0"
+            }
+          }
+        },
+        {
+          "estadio": "Coface Arena",
+          "periodo": "Final",
+          "fecha": "2015-08-15 08:30:00",
+          "equipos": {
+            "local": {
+              "goles": "0",
+              "nombre": "1. FSV Mainz 05"
+            },
+            "visitante": {
+              "nombre": "FC Ingolstadt 04",
+              "goles": "1"
+            }
+          }
+        },
+        {
+          "estadio": "BayArena",
+          "periodo": "Final",
+          "fecha": "2015-08-15 08:30:00",
+          "equipos": {
+            "local": {
+              "goles": "2",
+              "nombre": "Bayer 04 Leverkusen"
+            },
+            "visitante": {
+              "nombre": "TSG 1899 Hoffenheim",
+              "goles": "1"
+            }
           }
         }
       ]

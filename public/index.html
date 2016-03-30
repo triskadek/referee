@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Schedule</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <style>
+        .sche-root.js--close {
+            display: none;
+        }
+        .sche-root.js--open {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <a href="#" id="sche-trigger">Pizarra</a>
+            <div id="sche-root" class="sche-root js--close"></div>
+        </div>
+    </div>
+    <script type="text/x-handlebars-template" id="schedule-template">
+        {{#each this}}
+            <ul>
+                <li>
+                    {{competition}}
+                </li>
+                <li>
+                    <ul>
+                        {{#each matches}}
+                            <li>
+                                <strong>{{equipos.local.nombre}}</span>&nbsp;vs&nbsp;<span>{{equipos.visitante.nombre}}</strong>
+                                <br>
+                                <span>{{periodo}}</span>                                
+                                <span>{{estadio}}</span>
+                                <br>
+                                <span>{{fecha}}</span>
+                                <br>
+                                
+                            </li>
+                        {{/each}}
+                    </ul>
+                </li>
+            </ul>
+        {{/each}}
+    </script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="scripts/schedule.js"></script>
+</body>
+</html>
