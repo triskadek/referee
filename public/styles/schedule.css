@@ -1,0 +1,81 @@
+.sche-root.js--close {
+  display: none; }
+
+.sche-root.js--open {
+  display: block; }
+
+body {
+  background-color: #292929; }
+
+.sche-league {
+  padding: 1em;
+  border: 1px solid white;
+  position: relative;
+  margin-bottom: 1.5em; }
+  .sche-league * {
+    color: white; }
+  .sche-league__inner {
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto; }
+  .sche-league__ribbon {
+    background-color: #fff100;
+    left: -5px;
+    width: 120px;
+    height: 6px;
+    display: block;
+    position: relative;
+    top: -18px;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none; }
+    .sche-league__ribbon:before, .sche-league__ribbon:after {
+      content: '';
+      position: absolute;
+      height: 0;
+      width: 0;
+      border-style: solid;
+      border-width: 0; }
+    .sche-league__ribbon:after, .sche-league__ribbon:before {
+      border-width: 6px 10px 0 0; }
+    .sche-league__ribbon:before {
+      left: -10px;
+      border-color: transparent #fff100; }
+    .sche-league__ribbon:after {
+      right: -10px;
+      border-color: #fff100 transparent; }
+  .sche-league__table {
+    background-color: #2a2b2b;
+    width: 100%; }
+  .sche-league__name {
+    padding: 0.25em 0;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to bottom, #3e3f40 0%, #1a1a1a 100%); }
+  .sche-league__match {
+    border-bottom: 1px solid #555554; }
+    .sche-league__match:last-child {
+      border-bottom: none; }
+    .sche-league__match__body, .sche-league__match__team {
+      text-align: center; }
+    .sche-league__match__body {
+      width: 40%; }
+      .sche-league__match__body > span {
+        display: inline-block;
+        width: 100%; }
+    .sche-league__match__team {
+      width: 30%; }
+
+.team {
+  padding: 0.5em; }
+  .team__logo, .team__name {
+    display: inline-block; }
+  .team__logo {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    width: 54px;
+    height: 54px; }
+  .team__name {
+    text-transform: uppercase;
+    font-size: 8px;
+    width: 100%; }

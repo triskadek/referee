@@ -3,24 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Schedule</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/schedule.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <style>
-        .sche-root.js--close {
-            display: none;
-        }
-        .sche-root.js--open {
-            display: block;
-        }
-    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="container">
             <a href="#" id="sche-trigger">Pizarra</a>
             <div id="sche-root" class="sche-root js--close"></div>
+            
+            <div class="row">
+                
+            </div>
         </div>
     </div>
+    
     <script type="text/x-handlebars-template" id="schedule-template">
+        <div class="row">
+            {{#each this}}
+            <div class="col-xs-6 col-sm-3">
+                <div class="sche-league">
+                    <span class="sche-league__ribbon"></span>
+                    <div class="sche-league__inner">
+                        <table class="sche-league__table">
+                            <thead>
+                                <tr>
+                                    <td class="sche-league__name" colspan="3">{{ competition }}</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each matches}}
+                                <tr class="sche-league__match match">
+                                    <td class="sche-league__match__team team">
+                                        <img src="images/team-logo.jpg" alt="" class="img-circle team__logo">
+                                        <!--<span class="team__name">{{equipos.local.nombre}}</span>-->
+                                    </td>
+                                    <td class="sche-league__match__body">
+                                        <span>{{periodo}}</span>
+                                        <span>vs</span>
+                                        <span></span>
+                                    </td>
+                                    <td class="sche-league__match__team team">
+                                        <img src="images/team-logo.jpg" alt="" class="img-circle team__logo">
+                                        <!--<span class="team__name">{{equipos.visitante.nombre}}</span>-->
+                                    </td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </script>
+    <!--<script type="text/x-handlebars-template" id="schedule-template">
         {{#each this}}
             <ul>
                 <li>
@@ -44,7 +82,7 @@
                 </li>
             </ul>
         {{/each}}
-    </script>
+    </script>-->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/handlebars/handlebars.js"></script>
     <script src="scripts/schedule.js"></script>

@@ -1,0 +1,25 @@
+{
+  "name": "referee",
+  "version": "1.0.0",
+  "description": "```sh $ npm i -g json-server $ json-server --watch db.json ```",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/styles/schedule.scss public/styles/schedule.css",
+     "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triskadek/referee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/triskadek/referee/issues"
+  },
+  "homepage": "https://github.com/triskadek/referee#readme"
+}
